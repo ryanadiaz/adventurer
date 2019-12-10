@@ -5,4 +5,4 @@ Practice theme design for Adventurer Outdoor Sportswear Company
 
 ![](https://github.com/ryanadiaz/adventurer/blob/master/assets/images/screenshot.jpg)
 
-Live Demo: [https://ryanadiaz.com/adventurer](https://ryanadiaz.com/adventurer/)
+Live Demo: [http://ryanadiaz.com/adventurer](http://ryanadiaz.com/adventurer/)
