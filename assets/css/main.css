@@ -2,7 +2,11 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
-li a, .location, main h2 {
+img {
+  width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link, .location, main h2 {
   color: #DEA966;
   text-transform: uppercase;
 }
@@ -16,6 +20,20 @@ li a, .location, main h2 {
   width: 276px;
   height: 207px;
   padding: 50px 65px;
+}
+
+.nav-container {
+  display: flex;
+}
+
+header .row {
+  justify-content: flex-end;
+}
+
+@media ALL and (max-width: 991px) {
+  header .row {
+    justify-content: center;
+  }
 }
 
 header nav {
@@ -43,10 +61,12 @@ nav li {
 }
 
 .main-banner-text-overlay {
-  position: absolute;
-  top: 50%;
   width: 100%;
   text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  transform: translate(-50%, -50%);
 }
 
 .main-banner-text-overlay h1 {
@@ -69,7 +89,7 @@ main, footer {
   background-color: #131313;
 }
 
-footer .container {
+footer > div {
   border-top: 2px solid #414141;
   display: flex;
   justify-content: space-between;
