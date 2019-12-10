@@ -6,6 +6,20 @@ img {
   width: 100%;
 }
 
+button {
+  background: none;
+  border: 2px solid #DEA966;
+  border-radius: 5px;
+  padding: 3px 45px;
+  color: #DEA966;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background: #DEA966;
+  color: #131313;
+}
+
 .navbar-light .navbar-nav .nav-link, .location, main h2, .footer-menu a {
   color: #DEA966;
   text-transform: uppercase;
@@ -87,6 +101,10 @@ main, .footer-menu {
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
+}
+
+.main-right-container {
+  padding: 50px 0;
 }
 
 main p {
