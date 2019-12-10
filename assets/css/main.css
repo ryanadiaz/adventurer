@@ -45,14 +45,16 @@ nav li {
 .main-banner-text-overlay {
   position: absolute;
   top: 50%;
-  left: 48%;
-  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
 }
 
 .main-banner-text-overlay h1 {
-  font-size: 50px;
+  font-size: 40px;
   color: #fff;
   text-transform: uppercase;
+  letter-spacing: 8px;
+  font-weight: 700;
 }
 
 main, .footer-menu {
