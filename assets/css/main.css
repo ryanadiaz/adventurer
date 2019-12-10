@@ -1,3 +1,12 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+li a, .location, main h2 {
+  color: #DEA966;
+  text-transform: uppercase;
+}
+
 .main-logo-container {
   display: flex;
   justify-content: center;
@@ -9,13 +18,13 @@
   padding: 50px 65px;
 }
 
-nav {
+header nav {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-nav ul {
+header nav ul {
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -39,3 +48,43 @@ nav li {
   left: 48%;
   transform: translate(-50%, -50%);
 }
+
+.main-banner-text-overlay h1 {
+  font-size: 50px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+main, .footer-menu {
+  padding: 100px 0;
+}
+
+main p {
+  color: #fff;
+}
+
+main, footer {
+  background-color: #131313;
+}
+
+footer .container {
+  border-top: 2px solid #414141;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-menu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.location {
+  text-align: center;
+}
+
+.location p {
+  margin: 0;
+}
+
