@@ -1,0 +1,41 @@
+.main-logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main-logo {
+  width: 276px;
+  height: 207px;
+  padding: 50px 65px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+nav li {
+  padding: 0 10px;
+}
+
+.main-banner-image-container {
+  position: relative;
+}
+
+.main-banner-image {
+  width: 100%;
+}
+
+.main-banner-text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+}
